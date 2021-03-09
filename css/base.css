@@ -36,11 +36,19 @@ a {
 h1 {
     margin-left: auto;
     margin-right: auto;
-    width: 30em
+    width: 30em;
 }
 h3 {
     margin-left: auto;
     margin-right: auto;
-    width: 30em
+    width: 30em;
+    margin-bottom: 0px;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    height: auto;
 }
 
