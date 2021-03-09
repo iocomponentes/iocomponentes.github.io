@@ -1,0 +1,34 @@
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  position: fixed;
+  color: darkblue;
+  background-color: #11d3c4;
+  box-shadow: 0 0 5px gray;
+  position: fixed;
+  z-index: 50;
+  align-items: center;
+  background: white;
+  box-sizing: border-box;
+  display: flex;
+  height: 64px;
+  left: 0;
+  padding: 0 66px;
+  top: 0;
+  width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    /*justify-content: space-evenly;*/
+  }
+  
+.menu li {
+  list-style: none;
+}
